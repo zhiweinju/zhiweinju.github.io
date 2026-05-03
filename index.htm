@@ -11,6 +11,29 @@
     <link href="./files/moon.css" rel="stylesheet" type="text/css"><!-- moon -->
     <link href="./files/bibtex.css" rel="stylesheet" type="text/css"><!-- bibtex-->
 
+    <style>
+    body {
+    font-size: 16px;
+    line-height: 1.7;
+    }
+
+    .bibtex {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .bibtex .title {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .bibtex .author,
+    .bibtex .journal,
+    .bibtex .year {
+      font-size: 16px;
+    }
+    </style>
+
   </head>
   <body role="document">
     <div class="container">
@@ -19,15 +42,17 @@
 <tr>
 <td width="220" height="240"><img src="./files/jzw.jpg" width="170" height="238"></td>
 <td><br>
-<h2><span style="font-weight:bold; font-family:Times New Roman; font-size:20pt" id="">Zhiwei Jiang   </span>
-  <span style="font-family:华文行楷; font-size:28pt" id="">蒋智威</span> </h2>
-<div style="height:3px">PhD, Assistant Professor（姑苏青年教授 & 特聘研究员）</div> <br>
-State Key Laboratory for Novel Software Technology, <br>
-School of Intelligence Software and Engineering, <br>
-Nanjing University, China<br> <br>
-Email: jzw AT nju.edu.cn <br>
-Office: Room 224, East of Nanyong Building, Suzhou Campus <br>
-<br></td>
+  <h2><span style="font-weight:bold; font-family:Times New Roman; font-size:20pt" id="">Zhiwei Jiang </span>
+      <span style="font-family:华文行楷; font-size:28pt" id="">蒋智威</span> </h2>
+    <div style="height:3px">PhD, Assistant Professor（姑苏青年教授 & 特聘研究员）</div>
+    <br>
+    State Key Laboratory for Novel Software Technology, <br>
+    School of Intelligence Software and Engineering, <br>
+    Nanjing University, China<br> <br>
+    Email: jzw AT nju.edu.cn <br>
+    Office: Room 224, East of Nanyong Building, Suzhou Campus <br>
+    <br>
+  </td>
 </tr>
 </tbody>
 </table>
@@ -40,79 +65,99 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 </ul>
 
 <ul>
-<font size="3" color="blue">I am recruiting Ph.D., Master and Undergraduate students. <br>
+<font size="3.5" color="blue">I am recruiting Ph.D., Master and Undergraduate students. <br>
 现招收博士、硕士以及南京大学本科生，对自然语言处理方向感兴趣的同学，欢迎随时邮件联系。</font>
 </ul>
 
 <hr>
 <h2 id="research-interests">Research Interests</h2>
 
+
 <ul>
-  <li>Natural Language Processing
-    <ul><li>Large Language Model</li></ul>
-    <ul><li>Representation Learning</li></ul>
-    <ul><li>Text Classification</li></ul>
-    <ul><li>Text Mining for Software Engineering</li></ul>
+  <li>Representation Learning and Understanding
+    <ul><li>Text Representation from LLMs</li></ul>
+    <ul><li>Latent Reasoning for LLMs/MLLMs</li></ul>
+    <ul><li>Representation Probing and Analysis</li></ul>
+    <ul><li>Multimodal Representation Alignment</li></ul>
   </li>
 
-  <li>Language and Vision
-    <ul><li>Multimodal Understanding</li></ul>
-    <ul><li>Text-to-Image Diffusion Model</li></ul>
+  <li>Controllable & Trustworthy Generation
+    <ul><li>Inference-Time Steering and Test-Time Adaptation</li></ul>
+    <ul><li>Hallucination Detection and Mitigation</li></ul>
+    <ul><li>Controllable Image/Video Generation</li></ul>
+    <ul><li>Concept Erasure and Model Watermarking</li></ul>
   </li>
-
-  <li>Machine Learning
-    <ul><li>Deep Learning</li></ul>
-    <ul><li>Graph-based Learning</li></ul>
-    <ul><li>Weakly-Supervised Learning</li></ul>
-    <ul><li>Ordinal Classification</li></ul>
 </ul>
 
+
 <hr>
-<h2 id="publications">Publications</h2>
+<h2 id="publications">Selected Publications</h2>
 <ul class="bibtex">
 
 
 <h3 id="year">2026</h3>
 
-<li><a name="cheng_acl2026"></a>
-<div><span class="bibtex title"> Focusing Condition: Inference-Time Self-Contrastive Steering Elicits Better Conditional Text Embeddings in LLMs</span>, </div>
-<div><span class="bibtex author"> Zifeng Cheng, Lingyun Qian, <span class="bibtex author hl">Zhiwei Jiang*</span>, Cong Wang, Yafeng Yin, Fei Shen, Ao Zhou, Qing Gu,
+<li><a name="wang_icml2026"></a>
+<div><span class="bibtex author hl" style="color:red;">[ICML-2026]</span><span class="bibtex title"> ScaleErasure: Inference-Time Minimal Intervention for Precise Concept Erasure in Next-Scale Autoregressive Image Generation</span>, </div>
+<div><span class="bibtex author"> Cong Wang, Haiyu Wu, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Zifeng Cheng, Fei Shen, Yafeng Yin, Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span>
+<span class="bibtex journal">International Conference on Machine Learning (<span class="bibtex author hl" style="color:#4169e1;">ICML</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
+<span>, </span>
+<span class="bibtex year">2026.</span>
+</div>
+</li>
+
+<li><a name="li_icml2026"></a>
+<div><span class="bibtex author hl" style="color:red;">[ICML-2026]</span><span class="bibtex title"> Multi-Label Test-Time Adaptation with Bayesian Conditional Priors</span>, </div>
+<div><span class="bibtex author"> Qiru Li, Ao Zhou, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Zifeng Cheng, Cong Wang, Yafeng Yin, Qing Gu,
+</span></div>
+<div>
+<span class="bibtex journal">International Conference on Machine Learning (<span class="bibtex author hl" style="color:#4169e1;">ICML</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
+<span>, </span>
+<span class="bibtex year">2026.</span>
+</div>
+</li>
+
+<li><a name="cheng_acl2026"></a>
+<div><span class="bibtex author hl" style="color:red;">[ACL-2026]</span><span class="bibtex title"> Focusing Condition: Inference-Time Self-Contrastive Steering Elicits Better Conditional Text Embeddings in LLMs</span>, </div>
+<div><span class="bibtex author"> Zifeng Cheng, Lingyun Qian, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Cong Wang, Yafeng Yin, Fei Shen, Ao Zhou, Qing Gu,
+</span></div>
+<div>
+<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (<span class="bibtex author hl" style="color:#4169e1;">ACL</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2026.</span>
 </div>
 </li>
 
 <li><a name="yang_acl2026"></a>
-<div><span class="bibtex title"> AEA: Adaptive Expert Allocation Improves Sentence Embeddings from Mixture-of-Experts LLM</span>, </div>
-<div><span class="bibtex author"> Shufan Yang, Zifeng Cheng*, <span class="bibtex author hl">Zhiwei Jiang*</span>, Qingfeng Qi, Yafeng Yin, Cong Wang, Ao Zhou, Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[ACL-2026]</span><span class="bibtex title"> AEA: Adaptive Expert Allocation Improves Sentence Embeddings from Mixture-of-Experts LLM</span>, </div>
+<div><span class="bibtex author"> Shufan Yang, Zifeng Cheng<sup style="font-size: 0.9em;">✉</sup>, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Qingfeng Qi, Yafeng Yin, Cong Wang, Ao Zhou, Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2026)</span>
+<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (<span class="bibtex author hl" style="color:#4169e1;">ACL</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2026.</span>
 </div>
 </li>
 
 <li><a name="zhou_cvpr2026"></a>
-<div><span class="bibtex title"> Rethinking BCE Loss for Multi-Label Image Recognition with Fine-Tuning</span>, </div>
-<div><span class="bibtex author"> Ao Zhou, <span class="bibtex author hl">Zhiwei Jiang*</span>, Zifeng Cheng, Cong Wang, Yafeng Yin, Shufan Yang, Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[CVPR-2026]</span><span class="bibtex title"> Rethinking BCE Loss for Multi-Label Image Recognition with Fine-Tuning</span>, </div>
+<div><span class="bibtex author"> Ao Zhou, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Zifeng Cheng, Cong Wang, Yafeng Yin, Shufan Yang, Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)</span>
+<span class="bibtex journal">The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<span class="bibtex author hl" style="color:#4169e1;">CVPR</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2026.</span>
 </div>
 </li>
 
 <li><a name="yang_aaai2026"></a>
-<div><span class="bibtex title"> RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service Copyright Protection</span>, </div>
-<div><span class="bibtex author"> Shufan Yang, Zifeng Cheng*, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Cong Wang, Shiping Ge, Yuchen Fu, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[AAAI-2026]</span><span class="bibtex title"> RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service Copyright Protection</span>, </div>
+<div><span class="bibtex author"> Shufan Yang, Zifeng Cheng<sup style="font-size: 0.9em;">✉</sup>, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Cong Wang, Shiping Ge, Yuchen Fu, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">AAAI Conference on Artificial Intelligence (AAAI 2026)</span>
+<span class="bibtex journal">AAAI Conference on Artificial Intelligence (<span class="bibtex author hl" style="color:#4169e1;">AAAI</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2026.</span>
 </div>
@@ -122,166 +167,121 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 <h3 id="year">2025</h3>
 
 <li><a name="cheng_neurips2025"></a>
-<div><span class="bibtex title">Steering When Necessary: Flexible Steering Large Language Models with Backtracking</span>, </div>
-<div><span class="bibtex author"> Zifeng Cheng, Jinwei Gan, <span class="bibtex author hl">Zhiwei Jiang*</span>, Cong Wang, Yafeng Yin, Xiang Luo, Yuchen Fu, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[NeurIPS-2025]</span><span class="bibtex title"> Steering When Necessary: Flexible Steering Large Language Models with Backtracking</span>, </div>
+<div><span class="bibtex author"> Zifeng Cheng, Jinwei Gan, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Cong Wang, Yafeng Yin, Xiang Luo, Yuchen Fu, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Conference on Neural Information Processing Systems (NeurIPS 2025)</span>
+<span class="bibtex journal">Annual Conference on Neural Information Processing Systems (<span class="bibtex author hl" style="color:#4169e1;">NeurIPS</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
 <li><a name="wang_neurips2025"></a>
-<div><span class="bibtex title">Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization</span>, </div>
-<div><span class="bibtex author"> Cong Wang, Zexuan Deng, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin*, Fei Shen, Shiwei Gan, Zifeng Cheng, Shiping Ge, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[NeurIPS-2025]</span><span class="bibtex title"> Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization</span>, </div>
+<div><span class="bibtex author"> Cong Wang, Zexuan Deng, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin<sup style="font-size: 0.9em;">✉</sup>, Fei Shen, Shiwei Gan, Zifeng Cheng, Shiping Ge, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Conference on Neural Information Processing Systems (NeurIPS 2025)</span>
+<span class="bibtex journal">Annual Conference on Neural Information Processing Systems (<span class="bibtex author hl" style="color:#4169e1;">NeurIPS</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
-
-<li><a name="gan_neurips2025"></a>
-<div><span class="bibtex title">MixSignGraph: A Sign Sequence is Worth Mixed Graphs of Nodes</span>, </div>
-<div><span class="bibtex author"> Shiwei Gan, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang</span>, Lei Xie, Sanglu Lu, and Hongkai Wen,
-</span></div>
-<div>
-<span class="bibtex journal">Annual Conference on Neural Information Processing Systems (NeurIPS 2025)</span>
-<span>, </span>
-<span class="bibtex year">2025.</span>
-</div>
-</li>
-
-<li><a name="zhou_mm2025"></a>
-<div><span class="bibtex title"> Cross-Modal Prototype Augmentation and Dual-Grained Prompt Learning for Social Media Popularity Prediction</span>, </div>
-<div><span class="bibtex author"> Ao Zhou, Mingsheng Tu, Luping Wang, Tenghao Sun, Zifeng Cheng, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang*</span>, and Qing Gu,
-</span></div>
-<div>
-<span class="bibtex journal">ACM International Conference on Multimedia (MM 2025)</span>
-<span>, </span>
-<span class="bibtex year">2025.</span>
-</div>
-</li>
-
-<li><a name="zhou_mm2025"></a>
-<div><span class="bibtex title"> Hierarchical Vision-Language Reasoning for Multimodal Multiple-Choice Question Answering</span>, </div>
-<div><span class="bibtex author"> Ao Zhou, Zebo Gu, Luping Wang, Tenghao Sun, Jiawen Chen, Mingsheng Tu, Zifeng Cheng, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang*</span>, and Qing Gu,
-</span></div>
-<div>
-<span class="bibtex journal">ACM International Conference on Multimedia (MM 2025)</span>
-<span>, </span>
-<span class="bibtex year">2025.</span>
-</div>
-</li>
-
-<li><a name="guo_mm2025"></a>
-<div><span class="bibtex title"> Sentence-level Segmentation for Long Sign Language Videos with Captions</span>, </div>
-<div><span class="bibtex author"> Bowen Guo, Shiwei Gan, Yafeng Yin, Xiao Liu, <span class="bibtex author hl">Zhiwei Jiang</span>, and Shunmei Meng,
-</span></div>
-<div>
-<span class="bibtex journal">ACM International Conference on Multimedia (MM 2025)</span>
-<span>, </span>
-<span class="bibtex year">2025.</span>
-</div>
-</li>
-
 
 <li><a name="fu_acl2025"></a>
-<div><span class="bibtex title"> Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs</span>, </div>
-<div><span class="bibtex author"> Yuchen Fu, Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang*</span>, Zhonghui Wang, Yafeng Yin, Zhengliang Li, Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[ACL-2025]</span><span class="bibtex title"> Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs</span>, </div>
+<div><span class="bibtex author"> Yuchen Fu, Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Zhonghui Wang, Yafeng Yin, Zhengliang Li, Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2025)</span>
+<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (<span class="bibtex author hl" style="color:#4169e1;">ACL</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
 <li><a name="cheng_acl2025"></a>
-<div><span class="bibtex title"> Contrastive Prompting Enhances Sentence Embeddings in LLMs through Inference-Time Steering</span>, </div>
-<div><span class="bibtex author"> Zifeng Cheng, Zhonghui Wang, Yuchen Fu, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Cong Wang, Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[ACL-2025]</span><span class="bibtex title"> Contrastive Prompting Enhances Sentence Embeddings in LLMs through Inference-Time Steering</span>, </div>
+<div><span class="bibtex author"> Zifeng Cheng, Zhonghui Wang, Yuchen Fu, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Cong Wang, Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2025)</span>
+<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (<span class="bibtex author hl" style="color:#4169e1;">ACL</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
 <li><a name="cheng_acl2025"></a>
-<div><span class="bibtex title"> Multi-Prompting Decoder Helps Better Language Understanding</span>, </div>
-<div><span class="bibtex author"> Zifeng Cheng, Zhaoling Chen, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Cong Wang, Shiping Ge, Qing Gu,
+<div><span class="bibtex author hl" style="color:gray;">[ACL Findings-2025]</span><span class="bibtex title"> Multi-Prompting Decoder Helps Better Language Understanding</span>, </div>
+<div><span class="bibtex author"> Zifeng Cheng, Zhaoling Chen, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Cong Wang, Shiping Ge, Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2025 Findings)</span>
+<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL Findings)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
-<li><a name="chen_acl2025"></a>
-<div><span class="bibtex title"> LocAgent: Graph-Guided LLM Agents for Code Localization</span>, </div>
-<div><span class="bibtex author"> Zhaoling Chen, Robert Tang, Gangda Deng, Fang Wu, Jialong Wu, <span class="bibtex author hl">Zhiwei Jiang</span>, Viktor Prasanna, Arman Cohan, Xingyao Wang,
+<li><a name="zhou_mm2025"></a>
+<div><span class="bibtex author hl" style="color:red;">[MM-2025]</span><span class="bibtex title"> Cross-Modal Prototype Augmentation and Dual-Grained Prompt Learning for Social Media Popularity Prediction</span>, </div>
+<div><span class="bibtex author"> Ao Zhou, Mingsheng Tu, Luping Wang, Tenghao Sun, Zifeng Cheng, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2025)</span>
+<span class="bibtex journal">ACM International Conference on Multimedia (<span class="bibtex author hl" style="color:#4169e1;">MM</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
-<li><a name="hu_acl2025"></a>
-<div><span class="bibtex title"> LongRecipe: Recipe for Efficient Long Context Generalization in Large Language Models</span>, </div>
-<div><span class="bibtex author"> Zhiyuan Hu, Yuliang Liu, Jinman Zhao, Suyuchen Wang, WangYan, Wei Shen, Qing Gu, Anh Tuan Luu, See-Kiong Ng, <span class="bibtex author hl">Zhiwei Jiang</span>, Bryan Hooi,
+<li><a name="zhou_mm2025"></a>
+<div><span class="bibtex author hl" style="color:red;">[MM-2025]</span><span class="bibtex title"> Hierarchical Vision-Language Reasoning for Multimodal Multiple-Choice Question Answering</span>, </div>
+<div><span class="bibtex author"> Ao Zhou, Zebo Gu, Luping Wang, Tenghao Sun, Jiawen Chen, Mingsheng Tu, Zifeng Cheng, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2025)</span>
+<span class="bibtex journal">ACM International Conference on Multimedia (<span class="bibtex author hl" style="color:#4169e1;">MM</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
 <li><a name="ge_aaai2025"></a>
-<div><span class="bibtex title"> Implicit Location-Caption Alignment via Complementary Masking for Weakly-Supervised Dense Video Captioning</span>, </div>
-<div><span class="bibtex author"> Shiping Ge, Qiang Chen, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Liu Qin, Ziyao Chen, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[AAAI-2025]</span><span class="bibtex title"> Implicit Location-Caption Alignment via Complementary Masking for Weakly-Supervised Dense Video Captioning</span>, </div>
+<div><span class="bibtex author"> Shiping Ge, Qiang Chen, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Liu Qin, Ziyao Chen, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">AAAI Conference on Artificial Intelligence (AAAI 2025)</span>
+<span class="bibtex journal">AAAI Conference on Artificial Intelligence (<span class="bibtex author hl" style="color:#4169e1;">AAAI</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
 <li><a name="wang_iclr2025"></a>
-<div><span class="bibtex title"> Ensembling Diffusion Models via Adaptive Feature Aggregation</span>, </div>
-<div><span class="bibtex author"> Cong Wang, Kuan Tian, Yonghang Guan, Fei Shen, <span class="bibtex author hl">Zhiwei Jiang*</span>, Qing Gu, and Jun Zhang*,
+<div><span class="bibtex author hl" style="color:red;">[ICLR-2025]</span><span class="bibtex title"> Ensembling Diffusion Models via Adaptive Feature Aggregation</span>, </div>
+<div><span class="bibtex author"> Cong Wang, Kuan Tian, Yonghang Guan, Fei Shen, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Qing Gu, and Jun Zhang<sup style="font-size: 0.9em;">✉</sup>,
 </span></div>
 <div>
-<span class="bibtex journal">International Conference on Learning Representations (ICLR 2025)</span>
+<span class="bibtex journal">International Conference on Learning Representations (<span class="bibtex author hl" style="color:#4169e1;">ICLR</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
 <li><a name="ge_tomm2025"></a>
-<div><span class="bibtex title"> Fine-Grained Alignment Network for Zero-Shot Cross-Modal Retrieval</span>, </div>
-<div><span class="bibtex author"> Shiping Ge, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Cong Wang, Zifeng Cheng, and Qing Gu,
+<div><span class="bibtex author hl" style="color:gray;">[TOMM-2025]</span><span class="bibtex title"> Fine-Grained Alignment Network for Zero-Shot Cross-Modal Retrieval</span>, </div>
+<div><span class="bibtex author"> Shiping Ge, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Cong Wang, Zifeng Cheng, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">ACM Transactions on Multimedia Computing, Communications and Applications (TOMM 2025)</span>
+<span class="bibtex journal">ACM Transactions on Multimedia Computing, Communications and Applications (TOMM, CCF-B)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
 </li>
 
 <li><a name="li_icpc2025"></a>
-<div><span class="bibtex title"> LLM-BL: Large Language Models are Zero-Shot Rankers for Bug Localization</span>, </div>
-<div><span class="bibtex author"> Zhengliang Li, <span class="bibtex author hl">Zhiwei Jiang*</span>, Qiguo Huang, and Qing Gu,
+<div><span class="bibtex author hl" style="color:gray;">[ICPC-2025]</span><span class="bibtex title"> LLM-BL: Large Language Models are Zero-Shot Rankers for Bug Localization</span>, </div>
+<div><span class="bibtex author"> Zhengliang Li, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Qiguo Huang, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">IEEE International Conference on Program Comprehension (ICPC 2025)</span>
+<span class="bibtex journal">IEEE International Conference on Program Comprehension (ICPC, CCF-B)</span>
 <span>, </span>
 <span class="bibtex year">2025.</span>
 </div>
@@ -291,11 +291,11 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 <h3 id="year">2024</h3>
 
 <li><a name="fu_neurips2024"></a>
-<div><span class="bibtex title">AP-Adapter: Improving Generalization of Automatic Prompts on Unseen Text-to-Image Diffusion Models</span>, </div>
-<div><span class="bibtex author"> Yuchen Fu, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yuliang Liu, Cong Wang, Zexuan Deng, Zhaoling Chen, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[NeurIPS-2024]</span><span class="bibtex title"> AP-Adapter: Improving Generalization of Automatic Prompts on Unseen Text-to-Image Diffusion Models</span>, </div>
+<div><span class="bibtex author"> Yuchen Fu, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yuliang Liu, Cong Wang, Zexuan Deng, Zhaoling Chen, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</span>
+<span class="bibtex journal">Annual Conference on Neural Information Processing Systems (<span class="bibtex author hl" style="color:#4169e1;">NeurIPS</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex year">2024.</span>
 </div>
@@ -303,46 +303,24 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 
 
 <li><a name="ge_sigir2024"></a>
-<div><span class="bibtex title">Short Video Ordering via Position Decoding and Successor Prediction</span>, </div>
-<div><span class="bibtex author"> Shiping Ge, Qiang Chen, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Ziyao Chen, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[SIGIR-2024]</span><span class="bibtex title"> Short Video Ordering via Position Decoding and Successor Prediction</span>, </div>
+<div><span class="bibtex author"> Shiping Ge, Qiang Chen, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Ziyao Chen, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">International Conference on Research and Development in Information Retrieval (SIGIR 2024)</span>
+<span class="bibtex journal">International Conference on Research and Development in Information Retrieval (<span class="bibtex author hl" style="color:#4169e1;">SIGIR</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex year">2024.</span>
 </div>
 </li>
 
 <li><a name="cheng_tois2024"></a>
-<div><span class="bibtex title">Unifying Token and Span Level Supervisions for Few-Shot Sequence Labeling</span>, </div>
-<div><span class="bibtex author"> Zifeng Cheng, Qingyu Zhou, <span class="bibtex author hl">Zhiwei Jiang*</span>, Xuemin Zhao, Yunbo Cao, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[TOIS-2024]</span><span class="bibtex title"> Unifying Token and Span Level Supervisions for Few-Shot Sequence Labeling</span>, </div>
+<div><span class="bibtex author"> Zifeng Cheng, Qingyu Zhou, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Xuemin Zhao, Yunbo Cao, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">ACM Transactions on Information Systems (TOIS 2024)</span>
+<span class="bibtex journal">ACM Transactions on Information Systems (<span class="bibtex author hl" style="color:#4169e1;">TOIS</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">42(1): 32:1-32:27, </span>
-<span class="bibtex year">2024.</span>
-</div>
-</li>
-
-<li><a name="gan_cvpr2024"></a>
-<div><span class="bibtex title">SignGraph: A Sign Sequence is Worth Graphs of Nodes</span>, </div>
-<div><span class="bibtex author"> Shiwei Gan, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang</span>, Hongkai Wen, Lei Xie, and Sanglu Lu,
-</span></div>
-<div>
-<span class="bibtex journal">The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2024)</span>
-<span>, </span>
-<span class="bibtex year">2024.</span>
-</div>
-</li>
-
-<li><a name="yin_comst2024"></a>
-<div><span class="bibtex title"> A Systematic Review of Human Activity Recognition based on Mobile Devices: Overview, Progress and Trends</span>, </div>
-<div><span class="bibtex author"> Yafeng Yin, Lei Xie, <span class="bibtex author hl">Zhiwei Jiang</span>, Fu Xiao, Jiannong Cao, and Sanglu Lu,
-</span></div>
-<div>
-<span class="bibtex journal">IEEE Communications Surveys and Tutorials (COMST 2024, Impact Factor: 35.6)</span>
-<span>, </span>
 <span class="bibtex year">2024.</span>
 </div>
 </li>
@@ -350,11 +328,11 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 <h3 id="year">2023</h3>
 
 <li><a name="jiang_acl2023"></a>
-<div><span class="bibtex title">Improving Domain Generalization for Prompt-Aware Essay Scoring via Disentangled Representation Learning</span>, </div>
-<div><span class="bibtex author"> <span class="bibtex author hl">Zhiwei Jiang*</span>, Tianyi Gao, Yafeng Yin, Meng Liu, Hua Yu, Zifeng Cheng and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[ACL-2023]</span><span class="bibtex title"> Improving Domain Generalization for Prompt-Aware Essay Scoring via Disentangled Representation Learning</span>, </div>
+<div><span class="bibtex author"> <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Tianyi Gao, Yafeng Yin, Meng Liu, Hua Yu, Zifeng Cheng and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2023)</span>
+<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (<span class="bibtex author hl" style="color:#4169e1;">ACL</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">12456-12470, </span>
 <span class="bibtex year">2023.</span>
@@ -362,11 +340,11 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 </li>
 
 <li><a name="wang_acl2023"></a>
-<div><span class="bibtex title">Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring</span>, </div>
-<div><span class="bibtex author"> Cong Wang, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Zifeng Cheng, Shiping Ge and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[ACL-2023]</span><span class="bibtex title"> Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring</span>, </div>
+<div><span class="bibtex author"> Cong Wang, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Zifeng Cheng, Shiping Ge and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (ACL 2023)</span>
+<span class="bibtex journal">Annual Meeting of the Association for Computational Linguistics (<span class="bibtex author hl" style="color:#4169e1;">ACL</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">13999-14013, </span>
 <span class="bibtex year">2023.</span>
@@ -374,11 +352,11 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 </li>
 
 <li><a name="liu_sigir2023"></a>
-<div><span class="bibtex title">Unsupervised Readability Assessment via Learning from Weak Readability Signals</span>, </div>
-<div><span class="bibtex author"> Yuliang Liu, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Cong Wang, Sheng Chen, Zhaoling Chen, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[SIGIR-2023]</span><span class="bibtex title"> Unsupervised Readability Assessment via Learning from Weak Readability Signals</span>, </div>
+<div><span class="bibtex author"> Yuliang Liu, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Cong Wang, Sheng Chen, Zhaoling Chen, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">International Conference on Research and Development in Information Retrieval (SIGIR 2023)</span>
+<span class="bibtex journal">International Conference on Research and Development in Information Retrieval (<span class="bibtex author hl" style="color:#4169e1;">SIGIR</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">1324-1334, </span>
 <span class="bibtex year">2023.</span>
@@ -386,11 +364,11 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 </li>
 
 <li><a name="ge_www2023"></a>
-<div><span class="bibtex title">Learning Robust Multi-Modal Representation for Multi-Label Emotion Recognition via Adversarial Masking and Perturbation</span>, </div>
-<div><span class="bibtex author"> Shiping Ge, <span class="bibtex author hl">Zhiwei Jiang*</span>, Zifeng Cheng, Cong Wang, Yafeng Yin, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[WWW-2023]</span><span class="bibtex title"> Learning Robust Multi-Modal Representation for Multi-Label Emotion Recognition via Adversarial Masking and Perturbation</span>, </div>
+<div><span class="bibtex author"> Shiping Ge, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Zifeng Cheng, Cong Wang, Yafeng Yin, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">The Web Conference (WWW 2023)</span>
+<span class="bibtex journal">The Web Conference (<span class="bibtex author hl" style="color:#4169e1;">WWW</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">1510-1518, </span>
 <span class="bibtex year">2023.</span>
@@ -398,11 +376,11 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 </li>
 
 <li><a name="ge_mm2023"></a>
-<div><span class="bibtex title">Learning Event-Specific Localization Preferences for Audio-Visual Event Localization</span>, </div>
-<div><span class="bibtex author"> Shiping Ge, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Cong Wang, Zifeng Cheng, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[MM-2023]</span><span class="bibtex title"> Learning Event-Specific Localization Preferences for Audio-Visual Event Localization</span>, </div>
+<div><span class="bibtex author"> Shiping Ge, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Cong Wang, Zifeng Cheng, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">ACM International Conference on Multimedia (MM 2023)</span>
+<span class="bibtex journal">ACM International Conference on Multimedia (<span class="bibtex author hl" style="color:#4169e1;">MM</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">3446-3454, </span>
 <span class="bibtex year">2023.</span>
@@ -410,11 +388,11 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 </li>
 
 <li><a name="wang_aaai2023"></a>
-<div><span class="bibtex title"> Controlling Class Layout for Deep Ordinal Classification via Constrained Proxies Learning</span>, </div>
-<div><span class="bibtex author"> Cong Wang, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Zifeng Cheng, Shiping Ge, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[AAAI-2023]</span><span class="bibtex title"> Controlling Class Layout for Deep Ordinal Classification via Constrained Proxies Learning</span>, </div>
+<div><span class="bibtex author"> Cong Wang, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Zifeng Cheng, Shiping Ge, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">AAAI Conference on Artificial Intelligence (AAAI 2023)</span>
+<span class="bibtex journal">AAAI Conference on Artificial Intelligence (<span class="bibtex author hl" style="color:#4169e1;">AAAI</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">2483-2491, </span>
 <span class="bibtex year">2023.</span>
@@ -422,275 +400,69 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 </li>
 
 <li><a name="cheng_tois2022"></a>
-<div><span class="bibtex title">A Consistent Dual-MRC Framework for Emotion-Cause Pair Extraction</span>, </div>
-<div><span class="bibtex author"> Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Cong Wang, Shiping Ge, and Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[TOIS-2023]</span><span class="bibtex title"> A Consistent Dual-MRC Framework for Emotion-Cause Pair Extraction</span>, </div>
+<div><span class="bibtex author"> Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Cong Wang, Shiping Ge, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">ACM Transactions on Information Systems (TOIS 2023)</span>
+<span class="bibtex journal">ACM Transactions on Information Systems (<span class="bibtex author hl" style="color:#4169e1;">TOIS</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">41(4): 105:1-105:27, </span>
 <span class="bibtex year">2023.</span>
 </div>
 </li>
 
-<li><a name="gan_mm2023"></a>
-<div><span class="bibtex title">Towards Real-Time Sign Language Recognition and Translation on Edge Devices</span>, </div>
-<div><span class="bibtex author"> Shiwei Gan, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang</span>, Lei Xie, and Sanglu Lu,
-</span></div>
-<div>
-<span class="bibtex journal">ACM International Conference on Multimedia (MM 2023)</span>
-<span>, </span>
-<span class="bibtex pages">4502-4512, </span>
-<span class="bibtex year">2023.</span>
-</div>
-</li>
 
-<li><a name="gan_ijcai2023"></a>
-<div><span class="bibtex title">Contrastive Learning for Sign Language Recognition and Translation</span>, </div>
-<div><span class="bibtex author"> Shiwei Gan, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang</span>, Kang Xia, Lei Xie, and Sanglu Lu,
-</span></div>
-<div>
-<span class="bibtex journal">International Joint Conference on Artificial Intelligence (IJCAI 2023)</span>
-<span>, </span>
-<span class="bibtex pages">763-772, </span>
-<span class="bibtex year">2023.</span>
-</div>
-</li>
-
-<h3 id="year">2022</h3>
-
-<li><a name="cheng_taslp2022"></a>
-<div><span class="bibtex title">Learning to Classify Open Intent via Soft Labeling and Manifold Mixup</span>, </div>
-<div><span class="bibtex author"> Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Cong Wang, and Qing Gu,
-</span></div>
-<div>
-<span class="bibtex journal">IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP 2022)</span>
-<span>, </span>
-<span class="bibtex pages">30:635-645, </span>
-<span class="bibtex year">2022.</span>
-</div>
-</li>
-
-
-<li><a name="hao_CG2022"></a>
-<div><span class="bibtex title">Siamese Adversarial Network for Image Classification of Heavy Mineral Grains</span>, </div>
-<div><span class="bibtex author"> Huizhen Hao, <span class="bibtex author hl">Zhiwei Jiang*</span>, Shiping Ge, Cong Wang, and Qing Gu,
-</span></div>
-<div>
-<span class="bibtex journal">Computers & Geosciences</span>
-<span>, </span>
-<span class="bibtex pages">159:105016, </span>
-<span class="bibtex year">2022.</span>
-</div>
-</li>
-
-<h3 id="year">2021</h3>
+<h3 id="year">2022 and before</h3>
 
 <li><a name="jiang_www2021"></a>
-<div><span class="bibtex title">Learning from Graph Propagation via Ordinal Distillation for One-Shot Automated Essay Scoring</span>, </div>
-<div><span class="bibtex author"> <span class="bibtex author hl">Zhiwei Jiang*</span>, Meng Liu, Yafeng Yin, Hua Yu, Zifeng Cheng, Qing Gu,
+<div><span class="bibtex author hl" style="color:red;">[WWW-2021]</span><span class="bibtex title"> Learning from Graph Propagation via Ordinal Distillation for One-Shot Automated Essay Scoring</span>, </div>
+<div><span class="bibtex author"> <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Meng Liu, Yafeng Yin, Hua Yu, Zifeng Cheng, Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">The Web Conference (WWW 2021)</span>
+<span class="bibtex journal">The Web Conference (<span class="bibtex author hl" style="color:#4169e1;">WWW</span>, <span class="bibtex author hl" style="color:#ff4d4f;">CCF-A</span>)
 <span>, </span>
 <span class="bibtex pages">2347-2356, </span>
 <span class="bibtex year">2021.</span>
 </div>
 </li>
 
-<li><a name="cheng_taslp2021"></a>
-<div><span class="bibtex title">A Unified Target-Oriented Sequence-to-Sequence Model for Emotion-Cause Pair Extraction</span>, </div>
-<div><span class="bibtex author"> Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Na Li, and Qing Gu,
+<li><a name="cheng_taslp2022"></a>
+<div><span class="bibtex author hl" style="color:grey;">[TASLP-2022]</span><span class="bibtex title"> Learning to Classify Open Intent via Soft Labeling and Manifold Mixup</span>, </div>
+<div><span class="bibtex author"> Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Cong Wang, and Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP 2021)</span>
+<span class="bibtex journal">IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP, CCF-B)
+<span>, </span>
+<span class="bibtex pages">30:635-645, </span>
+<span class="bibtex year">2022.</span>
+</div>
+</li>
+
+<li><a name="cheng_taslp2021"></a>
+<div><span class="bibtex author hl" style="color:gray;">[TASLP-2021]</span><span class="bibtex title"> A Unified Target-Oriented Sequence-to-Sequence Model for Emotion-Cause Pair Extraction</span>, </div>
+<div><span class="bibtex author"> Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Na Li, and Qing Gu,
+</span></div>
+<div>
+<span class="bibtex journal">IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP, CCF-B)</span>
 <span>, </span>
 <span class="bibtex pages">29:2779-2791, </span>
 <span class="bibtex year">2021.</span>
 </div>
 </li>
 
-<li><a name="gan_mm2021"></a>
-<div><span class="bibtex title">Skeleton-Aware Neural Sign Language Translation</span>, </div>
-<div><span class="bibtex author"> Shiwei Gan, Yafeng Yin, <span class="bibtex author hl">Zhiwei Jiang</span>, Lei Xie, and Sanglu Lu,
-</span></div>
-<div>
-<span class="bibtex journal">ACM International Conference on Multimedia (MM 2021)</span>
-<span>, </span>
-<span class="bibtex pages">4353-4361, </span>
-<span class="bibtex year">2021.</span>
-</div>
-</li>
-
-<li><a name="li_ist2021"></a>
-<div><span class="bibtex title">Laprob: A Label Propagation-Based Software Bug Localization Method</span>, </div>
-<div><span class="bibtex author"> Zhengliang Li, <span class="bibtex author hl">Zhiwei Jiang</span>, Xiang Chen, Kaibo Cao, Qing Gu,
-</span></div>
-<div>
-<span class="bibtex journal">Information & Software Technology (IST 2021)</span>
-<span>, </span>
-<span class="bibtex pages">130:106410, </span>
-<span class="bibtex year">2021.</span>
-</div>
-</li>
-
-<li><a name="li_jos2021"></a>
-<div><span class="bibtex title">Survey on Information Retrieval-based Software Bug Localization Methods</span>, </div>
-<div><span class="bibtex author"> Zhengliang Li, Xiang Chen, <span class="bibtex author hl">Zhiwei Jiang</span>, Qing Gu,
-</span></div>
-<div>
-<span class="bibtex journal">Journal of Software (JoS 2021)</span>
-<span>, </span>
-<span class="bibtex pages">32(2): 247-276, </span>
-<span class="bibtex year">2021.</span>
-</div>
-</li>
-
-<li><a name="wang_CG2021"></a>
-<div><span class="bibtex title">SiamFuseNet: A Pseudo-Siamese Network for Detritus Detection from Polarized Microscopic Images of River Sands</span>, </div>
-<div><span class="bibtex author">Cong Wang, Shiping Ge, <span class="bibtex author hl">Zhiwei Jiang</span>, Huizhen Hao, Qing Gu,
-</span></div>
-<div>
-<span class="bibtex journal">Computers & Geosciences</span>
-<span>, </span>
-<span class="bibtex pages">156:104912, </span>
-<span class="bibtex year">2021.</span>
-</div>
-</li>
-
-<li><a name="ge_CG2021"></a>
-<div><span class="bibtex title">Dual-input Attention Network for Automatic Identification of Detritus from River Sands</span>, </div>
-<div><span class="bibtex author">Shiping Ge, Cong Wang, <span class="bibtex author hl">Zhiwei Jiang</span>, Huizhen Hao, Qing Gu,
-</span></div>
-<div>
-<span class="bibtex journal">Computers & Geosciences</span>
-<span>, </span>
-<span class="bibtex pages">151:104735, </span>
-<span class="bibtex year">2021.</span>
-</div>
-</li>
-
-<h3 id="year">2020 and before</h3>
-
 <li><a name="cheng_coling2020"></a>
-<div><span class="bibtex title">A Symmetric Local Search Network for Emotion-Cause Pair Extraction</span>, </div>
-<div><span class="bibtex author">Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang*</span>, Yafeng Yin, Hua Yu, Qing Gu,
+<div><span class="bibtex author hl" style="color:gray;">[COLING-2020]</span><span class="bibtex title"> A Symmetric Local Search Network for Emotion-Cause Pair Extraction</span>, </div>
+<div><span class="bibtex author">Zifeng Cheng, <span class="bibtex author hl">Zhiwei Jiang<sup style="font-size: 0.9em;">&#9993;</sup></span>, Yafeng Yin, Hua Yu, Qing Gu,
 </span></div>
 <div>
-<span class="bibtex journal">in Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020)</span>
+<span class="bibtex journal">International Conference on Computational Linguistics (COLING, CCF-B)</span>
 <span>, </span>
 <span class="bibtex pages">139–149, </span>
 <span class="bibtex year">2020.</span>
 </div>
 </li>
 
-<li><a name="li_CG2020"></a>
-<div><span class="bibtex title">A Multi-Task Multi-Class Learning Method for Automatic Identification of Heavy Minerals from River Sand</span>, </div>
-<div><span class="bibtex author">Na Li, Huizhen Hao, <span class="bibtex author hl">Zhiwei Jiang</span>, Feng Jiang, Ronghua Guo, Qing Gu, Xiumian Hu,
-</span></div>
-<div>
-<span class="bibtex journal">Computers & Geosciences</span>
-<span>, </span>
-<span class="bibtex pages">135:104403, </span>
-<span class="bibtex year">2020.</span>
-</div>
-</li>
 
-<li><a name="jiang_jasist2019"></a>
-<div><span class="bibtex title">GRAW+: A Two-View Graph Propagation Method with Word Coupling for Readability Assessment</span>, </div>
-<div><span class="bibtex author"><span class="bibtex author hl">Zhiwei Jiang</span>, Qing Gu, Yafeng Yin, Jianxiang Wang, and Daoxu Chen,
-</span></div>
-<div>
-<span class="bibtex journal">Journal of the Association for Information Science and Technology (JASIST 2019)</span>
-<span>, </span>
-<span class="bibtex pages">70(5):433–447, </span>
-<span class="bibtex year">2019.</span>
-</div>
-</li>
-
-<li><a name="jiang_coling2018"></a>
-<div><span class="bibtex title">Enriching Word Embeddings with Domain Knowledge for Readability Assessment</span>, </div>
-<div><span class="bibtex author"><span class="bibtex author hl">Zhiwei Jiang</span>, Qing Gu, Yafeng Yin, and Daoxu Chen,
-</span></div>
-<div>
-<span class="bibtex pages">in </span><span class="bibtex booktitle">Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)</span>
-<span>, </span>
-<span class="bibtex pages">366-378, </span>
-<span class="bibtex year">2018.</span>
-</div>
-</li>
-
-<li><a name="jiang_emnlp2015"></a>
-<div><span class="bibtex title">A Graph-based Readability Assessment Method using Word Coupling</span>, </div>
-<div><span class="bibtex author"><span class="bibtex author hl">Zhiwei Jiang</span>, Gang Sun, Qing Gu, Tao Bai, and Daoxu Chen,
-</span></div>
-<div>
-<span class="bibtex pages">in </span><span class="bibtex booktitle">Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015)</span>
-<span>, </span>
-<span class="bibtex pages">411-420, </span>
-<span class="bibtex year">2015.</span>
-</div>
-</li>
-
-<li><a name="jiang_apweb2015"></a>
-<div><span class="bibtex title">An Extended Graph- Based Label Propagation Method for Readability Assessment</span>, </div>
-<div><span class="bibtex author"><span class="bibtex author hl">Zhiwei Jiang</span>, Gang Sun, Qing Gu, Lixia Yu, and Daoxu Chen,
-</span></div>
-<div>
-<span class="bibtex pages">in </span><span class="bibtex booktitle">Proceedings of the 17th Asia-Pacific Web Conference (APWeb 2015)</span>
-<span>, </span>
-<span class="bibtex pages">485--496, </span>
-<span class="bibtex year">2015.</span>
-</div>
-</li>
-
-<li><a name="jiang_ksem2014"></a>
-<div><span class="bibtex title">An Ordinal Multi-class Classification Method for Readability Assessment of Chinese Documents</span>, </div>
-<div><span class="bibtex author"><span class="bibtex author hl">Zhiwei Jiang</span>, Gang Sun, Qing Gu, and Daoxu Chen,
-</span></div>
-<div>
-<span class="bibtex pages">in </span><span class="bibtex booktitle">Proceedings of the 7th International Conference on Knowledge Science, Engineering and Management (KSEM 2014)</span>
-<span>, </span>
-<span class="bibtex pages">61--72, </span>
-<span class="bibtex year">2014.</span>
-</div>
-</li>
-
-<li><a name="sun_iscslp2014"></a>
-<div><span class="bibtex title">Linear Model Incorporating Feature Ranking for Chinese Documents Readability</span>, </div>
-<div><span class="bibtex author">Gang Sun, <span class="bibtex author hl">Zhiwei Jiang</span>, Qing Gu, and Daoxu Chen,
-</span></div>
-<div>
-<span class="bibtex pages">in </span><span class="bibtex booktitle">Proceedings of the 9th International Symposium on Chinese Spoken Language Processing (ISCSLP 2014)</span>
-<span>, </span>
-<span class="bibtex pages">29--33, </span>
-<span class="bibtex year">2014.</span>
-</div>
-</li>
-
-<li><a name="li_pakdd2013"></a>
-<div><span class="bibtex title">Product and user dependent social network models for recommender systems</span>, </div>
-<div><span class="bibtex author">Min Li, <span class="bibtex author hl">Zhiwei Jiang</span>, Bin Luo, Jiubin Tang, Qing Gu, and Daoxu Chen
-</span></div>
-<div>
-<span class="bibtex pages">in </span><span class="bibtex booktitle">Proceedings of the 2013 Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2013)</span>
-<span>, </span>
-<span class="bibtex pages">13–24, </span>
-<span class="bibtex year">2013.</span>
-</div>
-</li>
-
-<li><a name="shang_SNPD2012"></a>
-<div><span class="bibtex title">Factor Analysis for Influence Maximization Problem in Social Networks</span>, </div>
-<div><span class="bibtex author">Xing Shang, Xiang Chen, <span class="bibtex author hl">Zhiwei Jiang</span>, Qing Gu, and Daoxu Chen
-</span></div>
-<div>
-<span class="bibtex pages">in </span><span class="bibtex booktitle">Proceedings of the 13th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2012)</span>
-<span>, </span>
-<span class="bibtex pages">95-101, </span>
-<span class="bibtex year">2012.</span>
-</div>
-</li>
 
 </ul>
 
@@ -699,7 +471,7 @@ I received my Ph.D. degree from Nanjing University in 2018 under the supervision
 
     <footer class="footer" style="margin-top:50px;">
       <div class="container">
-          <span class="text-muted">© 2024 <a href="https://zhiweinju.github.io/">Zhiwei Jiang</a>. All rights reserved.</span>
+          <span class="text-muted">© 2026 <a href="https://zhiweinju.github.io/">Zhiwei Jiang</a>. All rights reserved.</span>
       </div>
     </footer>
 
